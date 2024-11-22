@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    background-color: #c4c7af;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-top: 1.25rem;
+    padding: 0 0.75rem;
+}
+
+#byline {
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+    padding: 0 0.75rem;
+}
+#container {
+    background-color: #fff;
+    margin: 2rem auto;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    max-width: 50rem;
+}
+#map {
+    height: 500px;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#places {
+    height: 600px;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#text {
+    max-width: 55ch;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #333;
+    padding: 1rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+        margin-top: 1.25rem;
+    }
+
+    #container {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    #map, #places {
+        height: 300px;
+    }
+
+    #text {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
